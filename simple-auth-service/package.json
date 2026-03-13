@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "lint": "node --check src/auth.js src/users.js src/index.js",
     "test": "node tests/auth.test.js"
   }
 }
